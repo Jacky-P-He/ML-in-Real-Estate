@@ -41,8 +41,11 @@ Type conversions and filtering;
 Feature engineering;
 Adding new features
 
+
 # further steps:
 # data visualization
 Exploratory data analysis & data_visualization;
 geo_data_visualization;
 streamlit
+
+# model training & test & develop
