@@ -3,6 +3,8 @@ A Machine Learning Approach to the Analysis of Real Estate Prices in the New Yor
 
 # data collection demo -- haven't uploaded yet
 New York, NY_sold_past365days.csv(10000rows)
+
+
     from homeharvest import scrape_property
     # modify the parameters to your needs
     location = "New York, NY"
