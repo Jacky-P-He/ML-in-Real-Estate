@@ -35,14 +35,14 @@ A Machine Learning Approach to the Analysis of Real Estate Prices in the New Yor
     print(properties.head(3))
 
 # data processing -- nyc_house_preprocessing.ipynb
-Handling missing data
-Data cleaning
-Type conversions and filtering
-Feature engineering
+Handling missing data;
+Data cleaning;
+Type conversions and filtering;
+Feature engineering;
 Adding new features
 
 # further steps:
 # data visualization
-Exploratory data analysis & data_visualization
-geo_data_visualization
+Exploratory data analysis & data_visualization;
+geo_data_visualization;
 streamlit
