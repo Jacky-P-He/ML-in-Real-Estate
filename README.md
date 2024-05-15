@@ -74,4 +74,4 @@ In the data scraping section, we referenced [HomeHarvest](https://github.com/Bun
     print(properties.head(3))
 
 ## Contact Information
-For any questions or inquiries, please contact us at email yl3692@cornell.com.
+For any questions or inquiries, please contact us at email ph474@cornell.edu, zx324@cornell.edu, sc2745@cornell.edu, yl3692@cornell.edu, yz2947@cornell.edu.
