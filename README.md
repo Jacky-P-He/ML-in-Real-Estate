@@ -32,8 +32,8 @@ This will start the web application where you can interact with the data and vis
 
 ## Data Files
 
-- **New York, NY_sold_past365days.csv**: The raw data file obtained from Realtor.com scraping.
-- **housing_data.csv**: The file exported after data preprocessing, using New York, NY_sold_past365days.csv.
+- **New York, NY_sold_past365days.csv**: The raw data file obtained from [Realtor](https://www.realtor.com/) scraping.
+- **housing_data.csv**: The file exported after preprocessing data from New York, NY_sold_past365days.csv.
 - **test_data.csv**: The test dataset split from housing_data.csv for model training.
 - **train_data.csv**: The training dataset split from housing_data.csv for model training.
 
