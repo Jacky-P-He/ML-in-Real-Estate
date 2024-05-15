@@ -53,7 +53,9 @@ New York, NY_sold_past365days.csv(10000rows)
 
 Usage
 To run the main application, use the following command:
+
 streamlit run homework2.py
+
 This will start the web application where you can interact with the data and visualize the analysis results.
 
 Project Structure
