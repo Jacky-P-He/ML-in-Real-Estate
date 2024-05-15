@@ -14,9 +14,9 @@ To set up this project on your local machine, follow these steps:
    git clone https://github.com/username/ML-in-Real-Estate.git
    cd ML-in-Real-Estate
 
-2. **#Usage:**
+2. **Usage:**
 To run the main application, use the following command:
-   ```sh
+```sh
 streamlit run app.py
 
 This will start the web application where you can interact with the data and visualize the analysis results.
