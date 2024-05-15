@@ -18,7 +18,7 @@ To set up this project on your local machine, follow these steps:
 To run the main application, use the following command:
    ```sh
 streamlit run homework2.py
-
+   ```sh
 This will start the web application where you can interact with the data and visualize the analysis results.
 
 
