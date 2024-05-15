@@ -14,6 +14,13 @@ To set up this project on your local machine, follow these steps:
    git clone https://github.com/username/ML-in-Real-Estate.git
    cd ML-in-Real-Estate
 
+2. **#Usage:**
+To run the main application, use the following command:
+   ```sh
+streamlit run homework2.py
+
+This will start the web application where you can interact with the data and visualize the analysis results.
+
 
 # data collection demo -- haven't uploaded yet
 New York, NY_sold_past365days.csv(10000rows)
@@ -51,14 +58,6 @@ New York, NY_sold_past365days.csv(10000rows)
     properties.to_csv(filename, index=False)
     print(properties.head(3))
 
-2. **#Usage:**
-To run the main application, use the following command:
-
-
-streamlit run homework2.py
-
-
-This will start the web application where you can interact with the data and visualize the analysis results.
 
 Project Structure
 app.py: Main script to run the web application.
