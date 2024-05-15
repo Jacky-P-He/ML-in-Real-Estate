@@ -23,7 +23,7 @@ This will start the web application where you can interact with the data and vis
 
 ## data collection demo -- haven't uploaded yet
 New York, NY_sold_past365days.csv(10000rows)
-    ```
+    ```sh
     from homeharvest import scrape_property
     # modify the parameters to your needs
     location = "New York, NY"
@@ -55,17 +55,18 @@ New York, NY_sold_past365days.csv(10000rows)
     # save to a CSV without the index
     properties.to_csv(filename, index=False)
     print(properties.head(3))
-    ```
+   
 
 
 ## Project Structure
-*app.py: Main script to run the web application.
-*data/: Directory containing the datasets used in the analysis.
-*data_preprocessing/: Scripts for data cleaning and preprocessing.
-*models/: Trained machine learning models and related scripts.
-*pages/: HTML templates and static files for the web application.
-*Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf: Project presentation.
-*Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf: Project proposal.
+- **app.py**: Main script to run the web application.
+- **data/**: Directory containing the datasets used in the analysis.
+- **data_preprocessing/**: Scripts for data cleaning and preprocessing.
+- **models/**: Trained machine learning models and related scripts.
+- **pages/**: HTML templates and static files for the web application.
+- **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project presentation.
+- **Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project proposal.
+
 
 ## Contact Information
 For any questions or inquiries, please contact us at email yl3692@cornell.com.
