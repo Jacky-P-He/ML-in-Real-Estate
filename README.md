@@ -21,9 +21,11 @@ To run the main application, use the following command:
 
 This will start the web application where you can interact with the data and visualize the analysis results.
 
-## data collection demo -- haven't uploaded yet
+## Data Collection
 New York, NY_sold_past365days.csv(10000rows)
+    
     ```sh
+    
     from homeharvest import scrape_property
     # modify the parameters to your needs
     location = "New York, NY"
