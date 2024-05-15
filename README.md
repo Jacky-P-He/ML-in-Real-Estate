@@ -30,6 +30,13 @@ This will start the web application where you can interact with the data and vis
 - **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project presentation.
 - **Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project proposal.
 
+## Data Files
+
+- **New York, NY_sold_past365days.csv**: The raw data file obtained from web scraping.
+- **housing_data.csv**: The file exported after data preprocessing.
+- **test_data.csv**: The test dataset split from housing_data.csv for model training.
+- **train_data.csv**: The training dataset split from housing_data.csv for model training.
+
 
 ## Data Collection Model
 In the data scraping section, we referenced [HomeHarvest](https://github.com/Bunsly/HomeHarvest) and used the following code to perform data scraping:
@@ -65,6 +72,6 @@ In the data scraping section, we referenced [HomeHarvest](https://github.com/Bun
     # save to a CSV without the index
     properties.to_csv(filename, index=False)
     print(properties.head(3))
-    
+
 ## Contact Information
 For any questions or inquiries, please contact us at email yl3692@cornell.com.
