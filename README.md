@@ -51,7 +51,7 @@ New York, NY_sold_past365days.csv(10000rows)
     properties.to_csv(filename, index=False)
     print(properties.head(3))
 
-#Usage
+2. **#Usage:**
 To run the main application, use the following command:
 
 
