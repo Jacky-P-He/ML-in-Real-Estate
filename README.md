@@ -22,7 +22,7 @@ streamlit run app.py
 This will start the web application where you can interact with the data and visualize the analysis results.
 
 
-# data collection demo -- haven't uploaded yet
+## data collection demo -- haven't uploaded yet
 New York, NY_sold_past365days.csv(10000rows)
 
 
@@ -59,7 +59,7 @@ New York, NY_sold_past365days.csv(10000rows)
     print(properties.head(3))
 
 
-Project Structure
+## Project Structure
 app.py: Main script to run the web application.
 data/: Directory containing the datasets used in the analysis.
 data_preprocessing/: Scripts for data cleaning and preprocessing.
@@ -68,5 +68,5 @@ pages/: HTML templates and static files for the web application.
 Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf: Project presentation.
 Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf: Project proposal.
 
-Contact Information
+## Contact Information
 For any questions or inquiries, please contact us at email yl3692@cornell.com.
