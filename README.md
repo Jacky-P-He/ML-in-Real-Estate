@@ -21,9 +21,18 @@ To run the main application, use the following command:
 
 This will start the web application where you can interact with the data and visualize the analysis results.
 
+## Project Structure
+- **app.py**: Main script to run the web application.
+- **data/**: Directory containing the datasets used in the analysis.
+- **data_preprocessing/**: Scripts for data cleaning and preprocessing.
+- **models/**: Trained machine learning models and related scripts.
+- **pages/**: HTML templates and static files for the web application.
+- **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project presentation.
+- **Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project proposal.
+
 
 ## Data Collection Model
-Model HomeHarvest , which can be found at [HomeHarvest on GitHub](https://github.com/Bunsly/HomeHarvest).
+In the data scraping section, we referenced [HomeHarvest](https://github.com/Bunsly/HomeHarvest) and used the following code to perform data scraping:
     
     from homeharvest import scrape_property
     # modify the parameters to your needs
@@ -56,18 +65,6 @@ Model HomeHarvest , which can be found at [HomeHarvest on GitHub](https://github
     # save to a CSV without the index
     properties.to_csv(filename, index=False)
     print(properties.head(3))
-   
-
-
-## Project Structure
-- **app.py**: Main script to run the web application.
-- **data/**: Directory containing the datasets used in the analysis.
-- **data_preprocessing/**: Scripts for data cleaning and preprocessing.
-- **models/**: Trained machine learning models and related scripts.
-- **pages/**: HTML templates and static files for the web application.
-- **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project presentation.
-- **Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project proposal.
-
-
+    
 ## Contact Information
 For any questions or inquiries, please contact us at email yl3692@cornell.com.
