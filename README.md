@@ -16,16 +16,14 @@ To set up this project on your local machine, follow these steps:
 
 2. **Usage:**
 To run the main application, use the following command:
-```sh
-streamlit run app.py
+    ```sh
+    streamlit run app.py
 
 This will start the web application where you can interact with the data and visualize the analysis results.
 
-
 ## data collection demo -- haven't uploaded yet
 New York, NY_sold_past365days.csv(10000rows)
-
-
+    ```sh
     from homeharvest import scrape_property
     # modify the parameters to your needs
     location = "New York, NY"
