@@ -21,10 +21,9 @@ To run the main application, use the following command:
 
 This will start the web application where you can interact with the data and visualize the analysis results.
 
-## Data Collection
-New York, NY_sold_past365days.csv(10000rows)
-    
-    ```sh
+
+## Data Collection Model
+Model HomeHarvest , which can be found at [HomeHarvest on GitHub](https://github.com/Bunsly/HomeHarvest).
     
     from homeharvest import scrape_property
     # modify the parameters to your needs
