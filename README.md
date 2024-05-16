@@ -19,7 +19,7 @@ To run the main application, use the following command:
     ```sh
     streamlit run app.py
 
-This will start the web application where you can interact with the data and visualize the analysis results.
+Use **New York, NY_sold_past365days.csv** for Streamlit app in your browser. This will start the web application where you can interact with the data and visualize the analysis results.
 
 ## Project Structure
 - **app.py**: Main script to run the web application.
@@ -27,8 +27,9 @@ This will start the web application where you can interact with the data and vis
 - **data_preprocessing/**: Scripts for data cleaning and preprocessing.
 - **models/**: Trained machine learning models and related scripts.
 - **pages/**: HTML templates and static files for the web application.
-- **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project presentation.
-- **Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project proposal.
+- **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Presentation.
+- **Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project First Proposal.
+- **FinalReport_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Report.
 
 ## Data Files
 
