@@ -27,9 +27,11 @@ Use **New York, NY_sold_past365days.csv** for Streamlit app in your browser. Thi
 - **data_preprocessing/**: Scripts for data cleaning and preprocessing.
 - **models/**: Trained machine learning models and related scripts.
 - **pages/**: HTML templates and static files for the web application.
+
+## Project Report and Presentation
+- **4.26Proposal.pdf**: Project First Proposal submitted on 4/26/2024.
 - **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Presentation.
-- **Proposal_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project First Proposal.
-- **FinalReport_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Report.
+- **FinalReport_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Report submitted on 5/15/2024.
 
 ## Data Files
 
