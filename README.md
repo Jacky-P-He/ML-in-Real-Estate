@@ -6,6 +6,12 @@ This project employs machine learning techniques to analyze real estate prices i
 ## Project Overview
 This repository contains the code, data, and documentation for analyzing real estate prices using machine learning models. The key components of the project include data preprocessing, model training, and a web application for interactive data visualization.
 
+## Project Report and Presentation
+- **4.26Proposal.pdf**: Project First Proposal submitted on 4/26/2024.
+- **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Presentation.
+- **FinalReport_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Report submitted on 5/15/2024.
+
+
 ## Installation
 To set up this project on your local machine, follow these steps:
 
@@ -28,10 +34,6 @@ Use **New York, NY_sold_past365days.csv** for Streamlit app in your browser. Thi
 - **models/**: Trained machine learning models and related scripts.
 - **pages/**: HTML templates and static files for the web application.
 
-## Project Report and Presentation
-- **4.26Proposal.pdf**: Project First Proposal submitted on 4/26/2024.
-- **Presentation_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Presentation.
-- **FinalReport_A_ML_Approach_to_the_Analysis_of_Real_Estate_Prices_in_the_New_York_Metropolitan_Area.pdf**: Project Final Report submitted on 5/15/2024.
 
 ## Data Files
 
@@ -75,6 +77,7 @@ In the data scraping section, we referenced scraping model from [HomeHarvest](ht
     # save to a CSV without the index
     properties.to_csv(filename, index=False)
     print(properties.head(3))
+
 
 ## Contact Information
 For any questions or inquiries, please contact us at email ph474@cornell.edu, zx324@cornell.edu, sc2745@cornell.edu, yl3692@cornell.edu, yz2947@cornell.edu.
