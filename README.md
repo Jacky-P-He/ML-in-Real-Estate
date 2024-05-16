@@ -40,7 +40,7 @@ Use **New York, NY_sold_past365days.csv** for Streamlit app in your browser. Thi
 
 
 ## Data Collection Model
-In the data scraping section, we referenced [HomeHarvest](https://github.com/Bunsly/HomeHarvest) and used the following code to perform data scraping:
+In the data scraping section, we referenced scraping model from [HomeHarvest](https://github.com/Bunsly/HomeHarvest) and used the following code to perform data scraping:
     
     from homeharvest import scrape_property
     # modify the parameters to your needs
